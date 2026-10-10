@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donterfrom</title>
+    <link rel="stylesheet" href="don.css">
+</head>
+<body>
+    <h2>Donor Information </h2>
+    <form action="#" method="post">
+
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="company">Company:</label><br>
+        <input type="text" id="company" name="company" required><br><br>
+
+        <label for="address1">Adderss 1:</label><br>
+        <input type="text" id="address1" name="address1" required><br><br>
+
+        <label for="address2">Address 2:</label><br>
+        <input type="text" id="address2" name="address2" required><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="state">State</label><br>
+        <select id="state" name="state"> 
+            <option value="Select any city">Select any city</option>
+            <option value="Cummila">Cummila</option>
+            <option value="Fani">Fani</option>
+            <option value="Khulna">Khulna</option>
+        </select> <br><br>
+
+        <label for="code">Zip code </label><br>
+        <input type="number" id="code" name="code" required><br><br> 
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="Select country">Select any country</option>
+            <option value="Ind">Ind</option>
+            <option value="Pak">Pak</option>
+            <option value="Bra">Bra</option>
+        </select><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Donate Amount:</label><br>
+
+        <input type="radio" id="none" name="amount" value="none">
+        <label for="none">none</label>
+
+        <input type="radio" id="50" name="amount" value="50">
+        <label for="50">50</label>
+
+        <input type="radio" id="100" name="amount" value="100">
+        <label for="100">100</label>
+
+        <input type="radio" id="other" name="amount" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="ota">Other Amount</label>
+        <input type="number" id="ota" name="oamount" required><br><br>
+
+        <label for="ma">Monthly</label>
+        <input type="number" id="ma" name="mamount" >
+        <label for="ca">For</label>
+        <input type="number" id="ca" name="camount">
+        <label>Card</label><br><br>
+
+        <label >Recurring</label>
+        <input type="checkbox" id="rec" name="rec">
+        <label for="rec"> I am intersted </label><br><br>
+
+        <h3>Honoriam and memorial donation information</h3><br>
+        <label>I would to like this donation</label>
+        <input type="radio" id="honor" name="hon">
+        <label for="honor">To honor</label><br><br>
+
+        <label>Donation</label>
+        <input type="radio" id="monor" name="Don">
+        <label for="monor">To Memory of</label><br><br>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="Name" required><br><br>
+
+        <label for="donate">Acknowledge to donate:</label><br>
+        <input type="text" id="donate" name="nate"><br><br>
+
+        <label for="adr">Adress:</label><br>
+        <input type="text" id="adr" name="ad" required><br><br>
+        <label for="ci">city:</label><br>
+        <input type="text" id="ci" name="city1" required><br><br>
+
+        <label for="sta">State:</label><br>
+        <select id="sta" name="state1">
+            <option value="Select a state">Select a state</option>
+            <option value="Dhaka">Dhaka</option>
+        </select><br><br>
+
+        <label for="zi">Zip</label>
+        <input type="text" id="zi" name="zip"><br>
+
+        <label>Additional information</label><br><br>
+
+        <label for="name1">Name:</label><br>
+        <input type="text" id="name1" name="Name1" required><br><br>
+
+        <input type="checkbox" id="op" name="op1">
+        <label for="op">I would like my gift to remain anyone</label><br>
+        <input type="checkbox" id="op" name="op1">
+        <label for="op">My employee offers a matching </label><br>
+        <input type="checkbox" id="op" name="op1">
+        <label for="op">please save the cost of acknowledging this gift not mail thank you</label><br>
+        <label for="com">Comment</label><br>
+        <textarea id="com" name="comment" rows="5" cols="20">
+        </textarea><br><br>
+
+        <label>How may we contect you?</label><br>
+
+        <input type="checkbox" id="ch1" name="ch1">
+        <label for="ch1">Email</label><br>
+        
+        <input type="checkbox" id="ch2" name="ch2">
+        <label for="ch2">Postal mail</label><br>
+
+        <input type="checkbox" id="ch3" name="ch3">
+        <label for="ch3">Telephone</label><br>
+
+        <input type="checkbox" id="ch4" name="ch4">
+        <label for="ch4">Fax</label><br>
+
+        <label>I would like to receive newseters and inforfation about special event </label><br>
+
+        <input type="checkbox" id="ch5" name="ch5">
+        <label for="ch5">Email</label><br>
+
+        <input type="checkbox" id="ch6" name="ch6">
+        <label for="ch6">Postal mail</label><br><br>
+
+        <input type="checkbox" id="ch7" name="ch7">
+        <label for="ch7">I would like infromation volantering</label><br><br>
+        <input type="text" name="who"><br><br>
+
+        <input type="reset" value="Reset" ;>
+
+        <input type="submit" value="Continue" ;>
+    </form>
+</body>
+</html>
